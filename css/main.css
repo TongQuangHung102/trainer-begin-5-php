@@ -17,4 +17,27 @@
     display: block;
     line-height: 1.6;
 }
-/* 2 */
+/* 7 */
+.calendar {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.calendar caption {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar th,
+.calendar td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.calendar .highlight {
+    color: red;
+    font-weight: bold;
+}
